@@ -6,14 +6,19 @@ void vVielFachesVon(int x);
 float ArithMittel(float fArray[], int iLength);
 
 int main() {
+	// (1)
 	printf("Hello World\n");
 
+	// (2)
 	char yourName[6];
 	printf("Enter your Name: ");
 	scanf_s("%s", yourName, 6);
 	printf("Hello %s, nice to meet you!\n", yourName);
 
+	// (2)
 	vVielFachesVon(5);
+
+	// (2)
 	float Array[laenge] = { 1, 3, 5, 7, 8 };
 	printf("ArithMittel: %.2f",ArithMittel(Array, laenge));
 
